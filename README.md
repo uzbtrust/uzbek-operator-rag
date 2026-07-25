@@ -1,8 +1,8 @@
-# Uzbek Operator RAG From Scratch
+# Uzbek Operator RAG
 
-Operator chatbot uchun noldan qurilgan RAG (Retrieval-Augmented Generation) tizimi. Foydalanuvchi `.txt` formatdagi biznes faylini yuklaydi, tizim savollariga javob beradi.
+Operator chatbot uchun RAG (Retrieval-Augmented Generation) tizimi. Foydalanuvchi `.txt` formatdagi biznes faylini yuklaydi, tizim savollariga javob beradi.
 
-**Hech qanday framework ishlatilmagan** — LangChain, LlamaIndex yo'q. Barcha komponentlar qo'lda yozilgan.
+LangChain va LlamaIndex ishlatilmagan — retrieval, fusion va generation qatlamlari shu repo ichida qo'lda yozilgan.
 
 ## Arxitektura
 
@@ -254,6 +254,6 @@ python ui/app.py --knowledge data/sample_operator.txt
 ## Qoidalar
 
 - LangChain, LlamaIndex **ishlatilmagan**
-- Barcha asosiy komponentlar noldan yozilgan
+- Retrieval, fusion va generation qatlamlari shu repoda qo'lda yozilgan
 - Kaggle T4 x2 uchun optimizatsiya qilingan
 - Faqat generator uchun tayyor model (Qwen2.5-7B) ishlatilgan
