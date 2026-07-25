@@ -4,6 +4,8 @@ Operator chatbot uchun RAG (Retrieval-Augmented Generation) tizimi. Foydalanuvch
 
 LangChain va LlamaIndex ishlatilmagan — retrieval, fusion va generation qatlamlari shu repo ichida qo'lda yozilgan.
 
+Trained encoder: [huggingface.co/uzbtrust/uzbek-operator-rag](https://huggingface.co/uzbtrust/uzbek-operator-rag)
+
 ## Arxitektura
 
 ```
